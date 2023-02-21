@@ -4,7 +4,7 @@
 }
 
 #char,
-#enemy {
+#MonsterTwo {
     flex:1
 }
 .lifebar {
@@ -17,4 +17,10 @@
     height: inherit;
     background-color: red;
     border-radius: 5px;
+}
+
+.log {
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
 }
