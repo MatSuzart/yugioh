@@ -137,7 +137,7 @@ class Log {
         this.listZone.innerHTML = '';
 
         for( let i in this.list){
-            this.listZone.innerHTML += `<li>${this.ist[i]}</li>`
+            this.listZone.innerHTML += `<li>${this.list[i]}</li>`
         }
     }
 }
